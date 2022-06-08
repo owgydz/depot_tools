@@ -33,7 +33,7 @@ IF EXIST "%DEPOT_TOOLS_DIR%.disable_auto_update" GOTO :EOF
 IF "%DEPOT_TOOLS_UPDATE%" == "0" GOTO :EOF
 
 echo Updating depot_tools...
-set GIT_URL=https://chromium.googlesource.com/chromium/tools/depot_tools.git
+set GIT_URL=https://github.com/RebelBrowser/depot_tools.git
 
 :: Download git for the first time if it's not present.
 call git --version > nul 2>&1
