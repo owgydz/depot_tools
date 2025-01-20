@@ -7,6 +7,7 @@ import sys
 import config_util
 
 class OsmiumBrowser(config_util.Config):
+    """Basic Config class for Osmium."""
     @staticmethod
     def fetch_spec(props):
         url = 'https://github.com/owgydz/osmium.git'
