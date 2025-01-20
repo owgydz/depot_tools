@@ -11,10 +11,10 @@ import config_util  # pylint: disable=import-error
 # This class doesn't need an __init__ method, so we disable the warning
 # pylint: disable=no-init
 class Osmium(config_util.Config):
-    """Basic Config class for Osmium."""
+    """Basic Config class for Chromium."""
     @staticmethod
     def fetch_spec(props):
-        url = 'https://github.com/owgydz/osmium.git'
+        url = 'https://chromium.googlesource.com/chromium/src.git'
         solution = {
             'name': 'src',
             'url': url,
@@ -45,7 +45,7 @@ class Osmium(config_util.Config):
 
 
 def main(argv=None):
-    return Osmium().handle_args(argv)
+    return Chromium().handle_args(argv)
 
 
 if __name__ == '__main__':
