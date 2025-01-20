@@ -4,9 +4,7 @@
 
 import ast
 import sys
-
 import config_util
-
 
 class OsmiumBrowser(config_util.Config):
     @staticmethod
