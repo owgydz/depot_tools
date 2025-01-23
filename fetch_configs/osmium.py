@@ -2,6 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
+# Purpose: This makes the command fetch --nohooks --no-history osmium possible, instead of rebranding Chromium in the terminal.
+
 import ast
 import sys
 import config_util
