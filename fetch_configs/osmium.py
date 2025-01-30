@@ -1,7 +1,6 @@
 # Copyright (c) 2025 Owen Gaydosz. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
-
 # Purpose: This makes the command fetch --nohooks --no-history osmium possible, instead of rebranding Chromium in the terminal.
 
 import ast
@@ -35,10 +34,8 @@ class OsmiumBrowser(config_util.Config):
     def expected_root(props):
         return 'src'
 
-
 def main(argv=None):
     return OsmiumBrowser().handle_args(argv)
-
-
+    
 if __name__ == '__main__':
     sys.exit(main(sys.argv))
