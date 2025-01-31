@@ -7,7 +7,7 @@ import ast
 import sys
 import config_util
 
-class RotaryBrowser(config_util.Config):
+class RotaryEngine(config_util.Config):
     """Basic Config class for the Rotary Engine."""
     @staticmethod
     def fetch_spec(props):
